@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB737F21342FDCA00D8B96D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB737F11342FDCA00D8B96D /* UIKit.framework */; };
+		CBB737F41342FDCB00D8B96D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB737F31342FDCB00D8B96D /* Foundation.framework */; };
+		CBB737F61342FDCB00D8B96D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB737F51342FDCB00D8B96D /* CoreGraphics.framework */; };
+		CBB737FC1342FDCB00D8B96D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBB737FA1342FDCB00D8B96D /* InfoPlist.strings */; };
+		CBB737FF1342FDCB00D8B96D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB737FE1342FDCB00D8B96D /* main.m */; };
+		CBB738021342FDCB00D8B96D /* HelloURLSchemeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB738011342FDCB00D8B96D /* HelloURLSchemeAppDelegate.m */; };
+		CBB738051342FDCB00D8B96D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB738031342FDCB00D8B96D /* MainWindow.xib */; };
+		CBB738081342FDCB00D8B96D /* HelloURLSchemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB738071342FDCB00D8B96D /* HelloURLSchemeViewController.m */; };
+		CBB7380B1342FDCB00D8B96D /* HelloURLSchemeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB738091342FDCB00D8B96D /* HelloURLSchemeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBB737ED1342FDCA00D8B96D /* HelloURLScheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloURLScheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB737F11342FDCA00D8B96D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBB737F31342FDCB00D8B96D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBB737F51342FDCB00D8B96D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBB737F91342FDCB00D8B96D /* HelloURLScheme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloURLScheme-Info.plist"; sourceTree = "<group>"; };
+		CBB737FB1342FDCB00D8B96D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBB737FD1342FDCB00D8B96D /* HelloURLScheme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloURLScheme-Prefix.pch"; sourceTree = "<group>"; };
+		CBB737FE1342FDCB00D8B96D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBB738001342FDCB00D8B96D /* HelloURLSchemeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloURLSchemeAppDelegate.h; sourceTree = "<group>"; };
+		CBB738011342FDCB00D8B96D /* HelloURLSchemeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloURLSchemeAppDelegate.m; sourceTree = "<group>"; };
+		CBB738041342FDCB00D8B96D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CBB738061342FDCB00D8B96D /* HelloURLSchemeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloURLSchemeViewController.h; sourceTree = "<group>"; };
+		CBB738071342FDCB00D8B96D /* HelloURLSchemeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloURLSchemeViewController.m; sourceTree = "<group>"; };
+		CBB7380A1342FDCB00D8B96D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloURLSchemeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBB737EA1342FDCA00D8B96D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB737F21342FDCA00D8B96D /* UIKit.framework in Frameworks */,
+				CBB737F41342FDCB00D8B96D /* Foundation.framework in Frameworks */,
+				CBB737F61342FDCB00D8B96D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBB737E21342FDCA00D8B96D = {
+			isa = PBXGroup;
+			children = (
+				CBB737F71342FDCB00D8B96D /* HelloURLScheme */,
+				CBB737F01342FDCA00D8B96D /* Frameworks */,
+				CBB737EE1342FDCA00D8B96D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBB737EE1342FDCA00D8B96D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB737ED1342FDCA00D8B96D /* HelloURLScheme.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB737F01342FDCA00D8B96D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB737F11342FDCA00D8B96D /* UIKit.framework */,
+				CBB737F31342FDCB00D8B96D /* Foundation.framework */,
+				CBB737F51342FDCB00D8B96D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBB737F71342FDCB00D8B96D /* HelloURLScheme */ = {
+			isa = PBXGroup;
+			children = (
+				CBB738001342FDCB00D8B96D /* HelloURLSchemeAppDelegate.h */,
+				CBB738011342FDCB00D8B96D /* HelloURLSchemeAppDelegate.m */,
+				CBB738031342FDCB00D8B96D /* MainWindow.xib */,
+				CBB738061342FDCB00D8B96D /* HelloURLSchemeViewController.h */,
+				CBB738071342FDCB00D8B96D /* HelloURLSchemeViewController.m */,
+				CBB738091342FDCB00D8B96D /* HelloURLSchemeViewController.xib */,
+				CBB737F81342FDCB00D8B96D /* Supporting Files */,
+			);
+			path = HelloURLScheme;
+			sourceTree = "<group>";
+		};
+		CBB737F81342FDCB00D8B96D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBB737F91342FDCB00D8B96D /* HelloURLScheme-Info.plist */,
+				CBB737FA1342FDCB00D8B96D /* InfoPlist.strings */,
+				CBB737FD1342FDCB00D8B96D /* HelloURLScheme-Prefix.pch */,
+				CBB737FE1342FDCB00D8B96D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBB737EC1342FDCA00D8B96D /* HelloURLScheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB7380E1342FDCB00D8B96D /* Build configuration list for PBXNativeTarget "HelloURLScheme" */;
+			buildPhases = (
+				CBB737E91342FDCA00D8B96D /* Sources */,
+				CBB737EA1342FDCA00D8B96D /* Frameworks */,
+				CBB737EB1342FDCA00D8B96D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloURLScheme;
+			productName = HelloURLScheme;
+			productReference = CBB737ED1342FDCA00D8B96D /* HelloURLScheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBB737E41342FDCA00D8B96D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SoftArt Laboratory";
+			};
+			buildConfigurationList = CBB737E71342FDCA00D8B96D /* Build configuration list for PBXProject "HelloURLScheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBB737E21342FDCA00D8B96D;
+			productRefGroup = CBB737EE1342FDCA00D8B96D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBB737EC1342FDCA00D8B96D /* HelloURLScheme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBB737EB1342FDCA00D8B96D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB737FC1342FDCB00D8B96D /* InfoPlist.strings in Resources */,
+				CBB738051342FDCB00D8B96D /* MainWindow.xib in Resources */,
+				CBB7380B1342FDCB00D8B96D /* HelloURLSchemeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBB737E91342FDCA00D8B96D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB737FF1342FDCB00D8B96D /* main.m in Sources */,
+				CBB738021342FDCB00D8B96D /* HelloURLSchemeAppDelegate.m in Sources */,
+				CBB738081342FDCB00D8B96D /* HelloURLSchemeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBB737FA1342FDCB00D8B96D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB737FB1342FDCB00D8B96D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBB738031342FDCB00D8B96D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB738041342FDCB00D8B96D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CBB738091342FDCB00D8B96D /* HelloURLSchemeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB7380A1342FDCB00D8B96D /* en */,
+			);
+			name = HelloURLSchemeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBB7380C1342FDCB00D8B96D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBB7380D1342FDCB00D8B96D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CBB7380F1342FDCB00D8B96D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloURLScheme/HelloURLScheme-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "HelloURLScheme/HelloURLScheme-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBB738101342FDCB00D8B96D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloURLScheme/HelloURLScheme-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "HelloURLScheme/HelloURLScheme-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBB737E71342FDCA00D8B96D /* Build configuration list for PBXProject "HelloURLScheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB7380C1342FDCB00D8B96D /* Debug */,
+				CBB7380D1342FDCB00D8B96D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB7380E1342FDCB00D8B96D /* Build configuration list for PBXNativeTarget "HelloURLScheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB7380F1342FDCB00D8B96D /* Debug */,
+				CBB738101342FDCB00D8B96D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBB737E41342FDCA00D8B96D /* Project object */;
+}

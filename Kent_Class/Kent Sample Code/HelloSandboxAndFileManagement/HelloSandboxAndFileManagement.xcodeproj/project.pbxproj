@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB72034F1920D40C00E5ACFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB72034E1920D40C00E5ACFA /* Foundation.framework */; };
+		CB7203511920D40C00E5ACFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7203501920D40C00E5ACFA /* CoreGraphics.framework */; };
+		CB7203531920D40C00E5ACFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7203521920D40C00E5ACFA /* UIKit.framework */; };
+		CB7203591920D40C00E5ACFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB7203571920D40C00E5ACFA /* InfoPlist.strings */; };
+		CB72035B1920D40C00E5ACFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72035A1920D40C00E5ACFA /* main.m */; };
+		CB72035F1920D40C00E5ACFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72035E1920D40C00E5ACFA /* AppDelegate.m */; };
+		CB7203621920D40C00E5ACFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7203601920D40C00E5ACFA /* Main.storyboard */; };
+		CB7203651920D40C00E5ACFA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7203641920D40C00E5ACFA /* MasterViewController.m */; };
+		CB7203681920D40C00E5ACFA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7203671920D40C00E5ACFA /* DetailViewController.m */; };
+		CB72036A1920D40C00E5ACFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7203691920D40C00E5ACFA /* Images.xcassets */; };
+		CB7203711920D40C00E5ACFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7203701920D40C00E5ACFA /* XCTest.framework */; };
+		CB7203721920D40C00E5ACFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB72034E1920D40C00E5ACFA /* Foundation.framework */; };
+		CB7203731920D40C00E5ACFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7203521920D40C00E5ACFA /* UIKit.framework */; };
+		CB72037B1920D40C00E5ACFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB7203791920D40C00E5ACFA /* InfoPlist.strings */; };
+		CB72037D1920D40C00E5ACFA /* HelloSandboxAndFileManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB72037C1920D40C00E5ACFA /* HelloSandboxAndFileManagementTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB7203741920D40C00E5ACFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB7203431920D40C00E5ACFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB72034A1920D40C00E5ACFA;
+			remoteInfo = HelloSandboxAndFileManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB72034B1920D40C00E5ACFA /* HelloSandboxAndFileManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSandboxAndFileManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB72034E1920D40C00E5ACFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB7203501920D40C00E5ACFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB7203521920D40C00E5ACFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB7203561920D40C00E5ACFA /* HelloSandboxAndFileManagement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloSandboxAndFileManagement-Info.plist"; sourceTree = "<group>"; };
+		CB7203581920D40C00E5ACFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB72035A1920D40C00E5ACFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB72035C1920D40C00E5ACFA /* HelloSandboxAndFileManagement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloSandboxAndFileManagement-Prefix.pch"; sourceTree = "<group>"; };
+		CB72035D1920D40C00E5ACFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB72035E1920D40C00E5ACFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB7203611920D40C00E5ACFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB7203631920D40C00E5ACFA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CB7203641920D40C00E5ACFA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CB7203661920D40C00E5ACFA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CB7203671920D40C00E5ACFA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CB7203691920D40C00E5ACFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB72036F1920D40C00E5ACFA /* HelloSandboxAndFileManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSandboxAndFileManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7203701920D40C00E5ACFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB7203781920D40C00E5ACFA /* HelloSandboxAndFileManagementTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloSandboxAndFileManagementTests-Info.plist"; sourceTree = "<group>"; };
+		CB72037A1920D40C00E5ACFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB72037C1920D40C00E5ACFA /* HelloSandboxAndFileManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloSandboxAndFileManagementTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB7203481920D40C00E5ACFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7203511920D40C00E5ACFA /* CoreGraphics.framework in Frameworks */,
+				CB7203531920D40C00E5ACFA /* UIKit.framework in Frameworks */,
+				CB72034F1920D40C00E5ACFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB72036C1920D40C00E5ACFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7203711920D40C00E5ACFA /* XCTest.framework in Frameworks */,
+				CB7203731920D40C00E5ACFA /* UIKit.framework in Frameworks */,
+				CB7203721920D40C00E5ACFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB7203421920D40C00E5ACFA = {
+			isa = PBXGroup;
+			children = (
+				CB7203541920D40C00E5ACFA /* HelloSandboxAndFileManagement */,
+				CB7203761920D40C00E5ACFA /* HelloSandboxAndFileManagementTests */,
+				CB72034D1920D40C00E5ACFA /* Frameworks */,
+				CB72034C1920D40C00E5ACFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB72034C1920D40C00E5ACFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB72034B1920D40C00E5ACFA /* HelloSandboxAndFileManagement.app */,
+				CB72036F1920D40C00E5ACFA /* HelloSandboxAndFileManagementTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB72034D1920D40C00E5ACFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB72034E1920D40C00E5ACFA /* Foundation.framework */,
+				CB7203501920D40C00E5ACFA /* CoreGraphics.framework */,
+				CB7203521920D40C00E5ACFA /* UIKit.framework */,
+				CB7203701920D40C00E5ACFA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB7203541920D40C00E5ACFA /* HelloSandboxAndFileManagement */ = {
+			isa = PBXGroup;
+			children = (
+				CB72035D1920D40C00E5ACFA /* AppDelegate.h */,
+				CB72035E1920D40C00E5ACFA /* AppDelegate.m */,
+				CB7203601920D40C00E5ACFA /* Main.storyboard */,
+				CB7203631920D40C00E5ACFA /* MasterViewController.h */,
+				CB7203641920D40C00E5ACFA /* MasterViewController.m */,
+				CB7203661920D40C00E5ACFA /* DetailViewController.h */,
+				CB7203671920D40C00E5ACFA /* DetailViewController.m */,
+				CB7203691920D40C00E5ACFA /* Images.xcassets */,
+				CB7203551920D40C00E5ACFA /* Supporting Files */,
+			);
+			path = HelloSandboxAndFileManagement;
+			sourceTree = "<group>";
+		};
+		CB7203551920D40C00E5ACFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB7203561920D40C00E5ACFA /* HelloSandboxAndFileManagement-Info.plist */,
+				CB7203571920D40C00E5ACFA /* InfoPlist.strings */,
+				CB72035A1920D40C00E5ACFA /* main.m */,
+				CB72035C1920D40C00E5ACFA /* HelloSandboxAndFileManagement-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB7203761920D40C00E5ACFA /* HelloSandboxAndFileManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB72037C1920D40C00E5ACFA /* HelloSandboxAndFileManagementTests.m */,
+				CB7203771920D40C00E5ACFA /* Supporting Files */,
+			);
+			path = HelloSandboxAndFileManagementTests;
+			sourceTree = "<group>";
+		};
+		CB7203771920D40C00E5ACFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB7203781920D40C00E5ACFA /* HelloSandboxAndFileManagementTests-Info.plist */,
+				CB7203791920D40C00E5ACFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB72034A1920D40C00E5ACFA /* HelloSandboxAndFileManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7203801920D40C00E5ACFA /* Build configuration list for PBXNativeTarget "HelloSandboxAndFileManagement" */;
+			buildPhases = (
+				CB7203471920D40C00E5ACFA /* Sources */,
+				CB7203481920D40C00E5ACFA /* Frameworks */,
+				CB7203491920D40C00E5ACFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloSandboxAndFileManagement;
+			productName = HelloSandboxAndFileManagement;
+			productReference = CB72034B1920D40C00E5ACFA /* HelloSandboxAndFileManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB72036E1920D40C00E5ACFA /* HelloSandboxAndFileManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7203831920D40C00E5ACFA /* Build configuration list for PBXNativeTarget "HelloSandboxAndFileManagementTests" */;
+			buildPhases = (
+				CB72036B1920D40C00E5ACFA /* Sources */,
+				CB72036C1920D40C00E5ACFA /* Frameworks */,
+				CB72036D1920D40C00E5ACFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB7203751920D40C00E5ACFA /* PBXTargetDependency */,
+			);
+			name = HelloSandboxAndFileManagementTests;
+			productName = HelloSandboxAndFileManagementTests;
+			productReference = CB72036F1920D40C00E5ACFA /* HelloSandboxAndFileManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB7203431920D40C00E5ACFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kent Liu";
+				TargetAttributes = {
+					CB72036E1920D40C00E5ACFA = {
+						TestTargetID = CB72034A1920D40C00E5ACFA;
+					};
+				};
+			};
+			buildConfigurationList = CB7203461920D40C00E5ACFA /* Build configuration list for PBXProject "HelloSandboxAndFileManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB7203421920D40C00E5ACFA;
+			productRefGroup = CB72034C1920D40C00E5ACFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB72034A1920D40C00E5ACFA /* HelloSandboxAndFileManagement */,
+				CB72036E1920D40C00E5ACFA /* HelloSandboxAndFileManagementTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB7203491920D40C00E5ACFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72036A1920D40C00E5ACFA /* Images.xcassets in Resources */,
+				CB7203591920D40C00E5ACFA /* InfoPlist.strings in Resources */,
+				CB7203621920D40C00E5ACFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB72036D1920D40C00E5ACFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72037B1920D40C00E5ACFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB7203471920D40C00E5ACFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72035F1920D40C00E5ACFA /* AppDelegate.m in Sources */,
+				CB7203651920D40C00E5ACFA /* MasterViewController.m in Sources */,
+				CB72035B1920D40C00E5ACFA /* main.m in Sources */,
+				CB7203681920D40C00E5ACFA /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB72036B1920D40C00E5ACFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72037D1920D40C00E5ACFA /* HelloSandboxAndFileManagementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB7203751920D40C00E5ACFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB72034A1920D40C00E5ACFA /* HelloSandboxAndFileManagement */;
+			targetProxy = CB7203741920D40C00E5ACFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB7203571920D40C00E5ACFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7203581920D40C00E5ACFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB7203601920D40C00E5ACFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7203611920D40C00E5ACFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB7203791920D40C00E5ACFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB72037A1920D40C00E5ACFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB72037E1920D40C00E5ACFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB72037F1920D40C00E5ACFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB7203811920D40C00E5ACFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloSandboxAndFileManagement/HelloSandboxAndFileManagement-Prefix.pch";
+				INFOPLIST_FILE = "HelloSandboxAndFileManagement/HelloSandboxAndFileManagement-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB7203821920D40C00E5ACFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloSandboxAndFileManagement/HelloSandboxAndFileManagement-Prefix.pch";
+				INFOPLIST_FILE = "HelloSandboxAndFileManagement/HelloSandboxAndFileManagement-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB7203841920D40C00E5ACFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloSandboxAndFileManagement.app/HelloSandboxAndFileManagement";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloSandboxAndFileManagement/HelloSandboxAndFileManagement-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloSandboxAndFileManagementTests/HelloSandboxAndFileManagementTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB7203851920D40C00E5ACFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloSandboxAndFileManagement.app/HelloSandboxAndFileManagement";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloSandboxAndFileManagement/HelloSandboxAndFileManagement-Prefix.pch";
+				INFOPLIST_FILE = "HelloSandboxAndFileManagementTests/HelloSandboxAndFileManagementTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB7203461920D40C00E5ACFA /* Build configuration list for PBXProject "HelloSandboxAndFileManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB72037E1920D40C00E5ACFA /* Debug */,
+				CB72037F1920D40C00E5ACFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7203801920D40C00E5ACFA /* Build configuration list for PBXNativeTarget "HelloSandboxAndFileManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7203811920D40C00E5ACFA /* Debug */,
+				CB7203821920D40C00E5ACFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB7203831920D40C00E5ACFA /* Build configuration list for PBXNativeTarget "HelloSandboxAndFileManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7203841920D40C00E5ACFA /* Debug */,
+				CB7203851920D40C00E5ACFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB7203431920D40C00E5ACFA /* Project object */;
+}

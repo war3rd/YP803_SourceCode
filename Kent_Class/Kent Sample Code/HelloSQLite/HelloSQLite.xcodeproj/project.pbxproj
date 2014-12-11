@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB5E0C321435470C00C0A1E4 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5E0C311435470C00C0A1E4 /* home.png */; };
+		CB65730C1331906B007C8AFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB65730B1331906B007C8AFA /* UIKit.framework */; };
+		CB65730E1331906B007C8AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB65730D1331906B007C8AFA /* Foundation.framework */; };
+		CB6573101331906B007C8AFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB65730F1331906B007C8AFA /* CoreGraphics.framework */; };
+		CB6573161331906B007C8AFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB6573141331906B007C8AFA /* InfoPlist.strings */; };
+		CB6573191331906B007C8AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6573181331906B007C8AFA /* main.m */; };
+		CB65731C1331906C007C8AFA /* HelloSQLiteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB65731B1331906C007C8AFA /* HelloSQLiteAppDelegate.m */; };
+		CB65731F1331906C007C8AFA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB65731D1331906C007C8AFA /* MainWindow.xib */; };
+		CB6573221331906C007C8AFA /* HelloSQLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6573211331906C007C8AFA /* HelloSQLiteViewController.m */; };
+		CB6573251331906C007C8AFA /* HelloSQLiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6573231331906C007C8AFA /* HelloSQLiteViewController.xib */; };
+		CB65732C1331913D007C8AFA /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB65732B1331913D007C8AFA /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB5E0C311435470C00C0A1E4 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		CB6573071331906B007C8AFA /* HelloSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB65730B1331906B007C8AFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB65730D1331906B007C8AFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB65730F1331906B007C8AFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB6573131331906B007C8AFA /* HelloSQLite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloSQLite-Info.plist"; sourceTree = "<group>"; };
+		CB6573151331906B007C8AFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB6573171331906B007C8AFA /* HelloSQLite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloSQLite-Prefix.pch"; sourceTree = "<group>"; };
+		CB6573181331906B007C8AFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB65731A1331906C007C8AFA /* HelloSQLiteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloSQLiteAppDelegate.h; sourceTree = "<group>"; };
+		CB65731B1331906C007C8AFA /* HelloSQLiteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloSQLiteAppDelegate.m; sourceTree = "<group>"; };
+		CB65731E1331906C007C8AFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CB6573201331906C007C8AFA /* HelloSQLiteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloSQLiteViewController.h; sourceTree = "<group>"; };
+		CB6573211331906C007C8AFA /* HelloSQLiteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloSQLiteViewController.m; sourceTree = "<group>"; };
+		CB6573241331906C007C8AFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloSQLiteViewController.xib; sourceTree = "<group>"; };
+		CB65732B1331913D007C8AFA /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6573041331906B007C8AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB65732C1331913D007C8AFA /* libsqlite3.0.dylib in Frameworks */,
+				CB65730C1331906B007C8AFA /* UIKit.framework in Frameworks */,
+				CB65730E1331906B007C8AFA /* Foundation.framework in Frameworks */,
+				CB6573101331906B007C8AFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6572FC1331906B007C8AFA = {
+			isa = PBXGroup;
+			children = (
+				CB65732B1331913D007C8AFA /* libsqlite3.0.dylib */,
+				CB6573111331906B007C8AFA /* HelloSQLite */,
+				CB65730A1331906B007C8AFA /* Frameworks */,
+				CB6573081331906B007C8AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB6573081331906B007C8AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6573071331906B007C8AFA /* HelloSQLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB65730A1331906B007C8AFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB65730B1331906B007C8AFA /* UIKit.framework */,
+				CB65730D1331906B007C8AFA /* Foundation.framework */,
+				CB65730F1331906B007C8AFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB6573111331906B007C8AFA /* HelloSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				CB65731A1331906C007C8AFA /* HelloSQLiteAppDelegate.h */,
+				CB65731B1331906C007C8AFA /* HelloSQLiteAppDelegate.m */,
+				CB65731D1331906C007C8AFA /* MainWindow.xib */,
+				CB6573201331906C007C8AFA /* HelloSQLiteViewController.h */,
+				CB6573211331906C007C8AFA /* HelloSQLiteViewController.m */,
+				CB6573231331906C007C8AFA /* HelloSQLiteViewController.xib */,
+				CB5E0C311435470C00C0A1E4 /* home.png */,
+				CB6573121331906B007C8AFA /* Supporting Files */,
+			);
+			path = HelloSQLite;
+			sourceTree = "<group>";
+		};
+		CB6573121331906B007C8AFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6573131331906B007C8AFA /* HelloSQLite-Info.plist */,
+				CB6573141331906B007C8AFA /* InfoPlist.strings */,
+				CB6573171331906B007C8AFA /* HelloSQLite-Prefix.pch */,
+				CB6573181331906B007C8AFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB6573061331906B007C8AFA /* HelloSQLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6573281331906C007C8AFA /* Build configuration list for PBXNativeTarget "HelloSQLite" */;
+			buildPhases = (
+				CB6573031331906B007C8AFA /* Sources */,
+				CB6573041331906B007C8AFA /* Frameworks */,
+				CB6573051331906B007C8AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloSQLite;
+			productName = HelloSQLite;
+			productReference = CB6573071331906B007C8AFA /* HelloSQLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB6572FE1331906B007C8AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SoftArt Laboratory";
+			};
+			buildConfigurationList = CB6573011331906B007C8AFA /* Build configuration list for PBXProject "HelloSQLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB6572FC1331906B007C8AFA;
+			productRefGroup = CB6573081331906B007C8AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6573061331906B007C8AFA /* HelloSQLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB6573051331906B007C8AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6573161331906B007C8AFA /* InfoPlist.strings in Resources */,
+				CB65731F1331906C007C8AFA /* MainWindow.xib in Resources */,
+				CB6573251331906C007C8AFA /* HelloSQLiteViewController.xib in Resources */,
+				CB5E0C321435470C00C0A1E4 /* home.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB6573031331906B007C8AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6573191331906B007C8AFA /* main.m in Sources */,
+				CB65731C1331906C007C8AFA /* HelloSQLiteAppDelegate.m in Sources */,
+				CB6573221331906C007C8AFA /* HelloSQLiteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB6573141331906B007C8AFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6573151331906B007C8AFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB65731D1331906C007C8AFA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB65731E1331906C007C8AFA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CB6573231331906C007C8AFA /* HelloSQLiteViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6573241331906C007C8AFA /* en */,
+			);
+			name = HelloSQLiteViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB6573261331906C007C8AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB6573271331906C007C8AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CB6573291331906C007C8AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloSQLite/HelloSQLite-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "HelloSQLite/HelloSQLite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB65732A1331906C007C8AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloSQLite/HelloSQLite-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "HelloSQLite/HelloSQLite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB6573011331906B007C8AFA /* Build configuration list for PBXProject "HelloSQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6573261331906C007C8AFA /* Debug */,
+				CB6573271331906C007C8AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6573281331906C007C8AFA /* Build configuration list for PBXNativeTarget "HelloSQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6573291331906C007C8AFA /* Debug */,
+				CB65732A1331906C007C8AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB6572FE1331906B007C8AFA /* Project object */;
+}

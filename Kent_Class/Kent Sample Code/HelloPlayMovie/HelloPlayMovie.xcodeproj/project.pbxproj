@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB9434241806605000D09ADF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9434231806605000D09ADF /* Default-568h@2x.png */; };
+		CBA085041339CC9D0038F806 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA085031339CC9D0038F806 /* UIKit.framework */; };
+		CBA085061339CC9D0038F806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA085051339CC9D0038F806 /* Foundation.framework */; };
+		CBA085081339CC9D0038F806 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA085071339CC9D0038F806 /* CoreGraphics.framework */; };
+		CBA0850E1339CC9D0038F806 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA0850C1339CC9D0038F806 /* InfoPlist.strings */; };
+		CBA085111339CC9D0038F806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA085101339CC9D0038F806 /* main.m */; };
+		CBA085141339CC9D0038F806 /* HelloPlayMovieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA085131339CC9D0038F806 /* HelloPlayMovieAppDelegate.m */; };
+		CBA085171339CC9D0038F806 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA085151339CC9D0038F806 /* MainWindow.xib */; };
+		CBA0851A1339CC9D0038F806 /* HelloPlayMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA085191339CC9D0038F806 /* HelloPlayMovieViewController.m */; };
+		CBA0851D1339CC9D0038F806 /* HelloPlayMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA0851B1339CC9D0038F806 /* HelloPlayMovieViewController.xib */; };
+		CBA085241339CCB30038F806 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA085231339CCB30038F806 /* MediaPlayer.framework */; };
+		CBA085261339D7140038F806 /* the-smartest-smartphone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CBA085251339D7140038F806 /* the-smartest-smartphone.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB9434231806605000D09ADF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CBA084FF1339CC9D0038F806 /* HelloPlayMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPlayMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA085031339CC9D0038F806 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBA085051339CC9D0038F806 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBA085071339CC9D0038F806 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBA0850B1339CC9D0038F806 /* HelloPlayMovie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloPlayMovie-Info.plist"; sourceTree = "<group>"; };
+		CBA0850D1339CC9D0038F806 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBA0850F1339CC9D0038F806 /* HelloPlayMovie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloPlayMovie-Prefix.pch"; sourceTree = "<group>"; };
+		CBA085101339CC9D0038F806 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBA085121339CC9D0038F806 /* HelloPlayMovieAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPlayMovieAppDelegate.h; sourceTree = "<group>"; };
+		CBA085131339CC9D0038F806 /* HelloPlayMovieAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPlayMovieAppDelegate.m; sourceTree = "<group>"; };
+		CBA085161339CC9D0038F806 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CBA085181339CC9D0038F806 /* HelloPlayMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPlayMovieViewController.h; sourceTree = "<group>"; };
+		CBA085191339CC9D0038F806 /* HelloPlayMovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPlayMovieViewController.m; sourceTree = "<group>"; };
+		CBA0851C1339CC9D0038F806 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloPlayMovieViewController.xib; sourceTree = "<group>"; };
+		CBA085231339CCB30038F806 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CBA085251339D7140038F806 /* the-smartest-smartphone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "the-smartest-smartphone.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA084FC1339CC9D0038F806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA085241339CCB30038F806 /* MediaPlayer.framework in Frameworks */,
+				CBA085041339CC9D0038F806 /* UIKit.framework in Frameworks */,
+				CBA085061339CC9D0038F806 /* Foundation.framework in Frameworks */,
+				CBA085081339CC9D0038F806 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBA084F41339CC9D0038F806 = {
+			isa = PBXGroup;
+			children = (
+				CB9434231806605000D09ADF /* Default-568h@2x.png */,
+				CBA085091339CC9D0038F806 /* HelloPlayMovie */,
+				CBA085021339CC9D0038F806 /* Frameworks */,
+				CBA085001339CC9D0038F806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA085001339CC9D0038F806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA084FF1339CC9D0038F806 /* HelloPlayMovie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA085021339CC9D0038F806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBA085231339CCB30038F806 /* MediaPlayer.framework */,
+				CBA085031339CC9D0038F806 /* UIKit.framework */,
+				CBA085051339CC9D0038F806 /* Foundation.framework */,
+				CBA085071339CC9D0038F806 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBA085091339CC9D0038F806 /* HelloPlayMovie */ = {
+			isa = PBXGroup;
+			children = (
+				CBA085121339CC9D0038F806 /* HelloPlayMovieAppDelegate.h */,
+				CBA085131339CC9D0038F806 /* HelloPlayMovieAppDelegate.m */,
+				CBA085151339CC9D0038F806 /* MainWindow.xib */,
+				CBA085181339CC9D0038F806 /* HelloPlayMovieViewController.h */,
+				CBA085191339CC9D0038F806 /* HelloPlayMovieViewController.m */,
+				CBA0851B1339CC9D0038F806 /* HelloPlayMovieViewController.xib */,
+				CBA085251339D7140038F806 /* the-smartest-smartphone.mp4 */,
+				CBA0850A1339CC9D0038F806 /* Supporting Files */,
+			);
+			path = HelloPlayMovie;
+			sourceTree = "<group>";
+		};
+		CBA0850A1339CC9D0038F806 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA0850B1339CC9D0038F806 /* HelloPlayMovie-Info.plist */,
+				CBA0850C1339CC9D0038F806 /* InfoPlist.strings */,
+				CBA0850F1339CC9D0038F806 /* HelloPlayMovie-Prefix.pch */,
+				CBA085101339CC9D0038F806 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA084FE1339CC9D0038F806 /* HelloPlayMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA085201339CC9D0038F806 /* Build configuration list for PBXNativeTarget "HelloPlayMovie" */;
+			buildPhases = (
+				CBA084FB1339CC9D0038F806 /* Sources */,
+				CBA084FC1339CC9D0038F806 /* Frameworks */,
+				CBA084FD1339CC9D0038F806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloPlayMovie;
+			productName = HelloPlayMovie;
+			productReference = CBA084FF1339CC9D0038F806 /* HelloPlayMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA084F61339CC9D0038F806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SoftArt Laboratory";
+			};
+			buildConfigurationList = CBA084F91339CC9D0038F806 /* Build configuration list for PBXProject "HelloPlayMovie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBA084F41339CC9D0038F806;
+			productRefGroup = CBA085001339CC9D0038F806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA084FE1339CC9D0038F806 /* HelloPlayMovie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA084FD1339CC9D0038F806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA0850E1339CC9D0038F806 /* InfoPlist.strings in Resources */,
+				CBA085171339CC9D0038F806 /* MainWindow.xib in Resources */,
+				CBA0851D1339CC9D0038F806 /* HelloPlayMovieViewController.xib in Resources */,
+				CB9434241806605000D09ADF /* Default-568h@2x.png in Resources */,
+				CBA085261339D7140038F806 /* the-smartest-smartphone.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA084FB1339CC9D0038F806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA085111339CC9D0038F806 /* main.m in Sources */,
+				CBA085141339CC9D0038F806 /* HelloPlayMovieAppDelegate.m in Sources */,
+				CBA0851A1339CC9D0038F806 /* HelloPlayMovieViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBA0850C1339CC9D0038F806 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA0850D1339CC9D0038F806 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBA085151339CC9D0038F806 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA085161339CC9D0038F806 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CBA0851B1339CC9D0038F806 /* HelloPlayMovieViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA0851C1339CC9D0038F806 /* en */,
+			);
+			name = HelloPlayMovieViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA0851E1339CC9D0038F806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBA0851F1339CC9D0038F806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CBA085211339CC9D0038F806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloPlayMovie/HelloPlayMovie-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "HelloPlayMovie/HelloPlayMovie-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBA085221339CC9D0038F806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloPlayMovie/HelloPlayMovie-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "HelloPlayMovie/HelloPlayMovie-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA084F91339CC9D0038F806 /* Build configuration list for PBXProject "HelloPlayMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA0851E1339CC9D0038F806 /* Debug */,
+				CBA0851F1339CC9D0038F806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA085201339CC9D0038F806 /* Build configuration list for PBXNativeTarget "HelloPlayMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA085211339CC9D0038F806 /* Debug */,
+				CBA085221339CC9D0038F806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA084F61339CC9D0038F806 /* Project object */;
+}

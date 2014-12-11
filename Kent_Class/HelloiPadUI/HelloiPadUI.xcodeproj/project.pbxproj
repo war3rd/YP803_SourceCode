@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB6571BE133096D0007C8AFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6571BD133096D0007C8AFA /* UIKit.framework */; };
+		CB6571C0133096D0007C8AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6571BF133096D0007C8AFA /* Foundation.framework */; };
+		CB6571C2133096D0007C8AFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6571C1133096D0007C8AFA /* CoreGraphics.framework */; };
+		CB6571C8133096D0007C8AFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB6571C6133096D0007C8AFA /* InfoPlist.strings */; };
+		CB6571CB133096D0007C8AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6571CA133096D0007C8AFA /* main.m */; };
+		CB6571CE133096D0007C8AFA /* HelloiPadUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6571CD133096D0007C8AFA /* HelloiPadUIAppDelegate.m */; };
+		CB6571D1133096D0007C8AFA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6571CF133096D0007C8AFA /* MainWindow.xib */; };
+		CB6571D4133096D0007C8AFA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6571D3133096D0007C8AFA /* DetailViewController.m */; };
+		CB6571D7133096D0007C8AFA /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6571D5133096D0007C8AFA /* DetailView.xib */; };
+		CB6571DA133096D0007C8AFA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6571D9133096D0007C8AFA /* RootViewController.m */; };
+		CB6572071330E4F0007C8AFA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6572061330E4F0007C8AFA /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB6571B9133096D0007C8AFA /* HelloiPadUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloiPadUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6571BD133096D0007C8AFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB6571BF133096D0007C8AFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB6571C1133096D0007C8AFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB6571C5133096D0007C8AFA /* HelloiPadUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloiPadUI-Info.plist"; sourceTree = "<group>"; };
+		CB6571C7133096D0007C8AFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB6571C9133096D0007C8AFA /* HelloiPadUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloiPadUI-Prefix.pch"; sourceTree = "<group>"; };
+		CB6571CA133096D0007C8AFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB6571CC133096D0007C8AFA /* HelloiPadUIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloiPadUIAppDelegate.h; sourceTree = "<group>"; };
+		CB6571CD133096D0007C8AFA /* HelloiPadUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloiPadUIAppDelegate.m; sourceTree = "<group>"; };
+		CB6571D0133096D0007C8AFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CB6571D2133096D0007C8AFA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CB6571D3133096D0007C8AFA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CB6571D6133096D0007C8AFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		CB6571D8133096D0007C8AFA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CB6571D9133096D0007C8AFA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CB6572061330E4F0007C8AFA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6571B6133096CF007C8AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6572071330E4F0007C8AFA /* MapKit.framework in Frameworks */,
+				CB6571BE133096D0007C8AFA /* UIKit.framework in Frameworks */,
+				CB6571C0133096D0007C8AFA /* Foundation.framework in Frameworks */,
+				CB6571C2133096D0007C8AFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6571AE133096CF007C8AFA = {
+			isa = PBXGroup;
+			children = (
+				CB6572061330E4F0007C8AFA /* MapKit.framework */,
+				CB6571C3133096D0007C8AFA /* HelloiPadUI */,
+				CB6571BC133096D0007C8AFA /* Frameworks */,
+				CB6571BA133096D0007C8AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB6571BA133096D0007C8AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6571B9133096D0007C8AFA /* HelloiPadUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6571BC133096D0007C8AFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6571BD133096D0007C8AFA /* UIKit.framework */,
+				CB6571BF133096D0007C8AFA /* Foundation.framework */,
+				CB6571C1133096D0007C8AFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB6571C3133096D0007C8AFA /* HelloiPadUI */ = {
+			isa = PBXGroup;
+			children = (
+				CB6571CC133096D0007C8AFA /* HelloiPadUIAppDelegate.h */,
+				CB6571CD133096D0007C8AFA /* HelloiPadUIAppDelegate.m */,
+				CB6571CF133096D0007C8AFA /* MainWindow.xib */,
+				CB6571D2133096D0007C8AFA /* DetailViewController.h */,
+				CB6571D3133096D0007C8AFA /* DetailViewController.m */,
+				CB6571D5133096D0007C8AFA /* DetailView.xib */,
+				CB6571D8133096D0007C8AFA /* RootViewController.h */,
+				CB6571D9133096D0007C8AFA /* RootViewController.m */,
+				CB6571C4133096D0007C8AFA /* Supporting Files */,
+			);
+			path = HelloiPadUI;
+			sourceTree = "<group>";
+		};
+		CB6571C4133096D0007C8AFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6571C5133096D0007C8AFA /* HelloiPadUI-Info.plist */,
+				CB6571C6133096D0007C8AFA /* InfoPlist.strings */,
+				CB6571C9133096D0007C8AFA /* HelloiPadUI-Prefix.pch */,
+				CB6571CA133096D0007C8AFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB6571B8133096CF007C8AFA /* HelloiPadUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6571DD133096D0007C8AFA /* Build configuration list for PBXNativeTarget "HelloiPadUI" */;
+			buildPhases = (
+				CB6571B5133096CF007C8AFA /* Sources */,
+				CB6571B6133096CF007C8AFA /* Frameworks */,
+				CB6571B7133096CF007C8AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloiPadUI;
+			productName = HelloiPadUI;
+			productReference = CB6571B9133096D0007C8AFA /* HelloiPadUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB6571B0133096CF007C8AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SoftArt Laboratory";
+			};
+			buildConfigurationList = CB6571B3133096CF007C8AFA /* Build configuration list for PBXProject "HelloiPadUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB6571AE133096CF007C8AFA;
+			productRefGroup = CB6571BA133096D0007C8AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6571B8133096CF007C8AFA /* HelloiPadUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB6571B7133096CF007C8AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6571C8133096D0007C8AFA /* InfoPlist.strings in Resources */,
+				CB6571D1133096D0007C8AFA /* MainWindow.xib in Resources */,
+				CB6571D7133096D0007C8AFA /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB6571B5133096CF007C8AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6571CB133096D0007C8AFA /* main.m in Sources */,
+				CB6571CE133096D0007C8AFA /* HelloiPadUIAppDelegate.m in Sources */,
+				CB6571D4133096D0007C8AFA /* DetailViewController.m in Sources */,
+				CB6571DA133096D0007C8AFA /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB6571C6133096D0007C8AFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6571C7133096D0007C8AFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB6571CF133096D0007C8AFA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6571D0133096D0007C8AFA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CB6571D5133096D0007C8AFA /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6571D6133096D0007C8AFA /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB6571DB133096D0007C8AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CB6571DC133096D0007C8AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		CB6571DE133096D0007C8AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloiPadUI/HelloiPadUI-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "HelloiPadUI/HelloiPadUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB6571DF133096D0007C8AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloiPadUI/HelloiPadUI-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "HelloiPadUI/HelloiPadUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB6571B3133096CF007C8AFA /* Build configuration list for PBXProject "HelloiPadUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6571DB133096D0007C8AFA /* Debug */,
+				CB6571DC133096D0007C8AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6571DD133096D0007C8AFA /* Build configuration list for PBXNativeTarget "HelloiPadUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6571DE133096D0007C8AFA /* Debug */,
+				CB6571DF133096D0007C8AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB6571B0133096CF007C8AFA /* Project object */;
+}

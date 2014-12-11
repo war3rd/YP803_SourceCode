@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB950C2C13D28B69002FED97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB950C2B13D28B69002FED97 /* UIKit.framework */; };
+		CB950C2E13D28B69002FED97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB950C2D13D28B69002FED97 /* Foundation.framework */; };
+		CB950C3013D28B69002FED97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB950C2F13D28B69002FED97 /* CoreGraphics.framework */; };
+		CB950C3613D28B69002FED97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB950C3413D28B69002FED97 /* InfoPlist.strings */; };
+		CB950C3913D28B69002FED97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB950C3813D28B69002FED97 /* main.m */; };
+		CB950C3C13D28B6A002FED97 /* HelloMyTakePictureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB950C3B13D28B6A002FED97 /* HelloMyTakePictureAppDelegate.m */; };
+		CB950C3F13D28B6A002FED97 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB950C3D13D28B6A002FED97 /* MainWindow.xib */; };
+		CB950C4213D28B6A002FED97 /* HelloMyTakePictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB950C4113D28B6A002FED97 /* HelloMyTakePictureViewController.m */; };
+		CB950C4513D28B6A002FED97 /* HelloMyTakePictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB950C4313D28B6A002FED97 /* HelloMyTakePictureViewController.xib */; };
+		CB950C8D13D2BC34002FED97 /* frame_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB950C8C13D2BC34002FED97 /* frame_01.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB950C2713D28B69002FED97 /* HelloMyTakePicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMyTakePicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB950C2B13D28B69002FED97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB950C2D13D28B69002FED97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB950C2F13D28B69002FED97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB950C3313D28B69002FED97 /* HelloMyTakePicture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloMyTakePicture-Info.plist"; sourceTree = "<group>"; };
+		CB950C3513D28B69002FED97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB950C3713D28B69002FED97 /* HelloMyTakePicture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloMyTakePicture-Prefix.pch"; sourceTree = "<group>"; };
+		CB950C3813D28B69002FED97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB950C3A13D28B69002FED97 /* HelloMyTakePictureAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloMyTakePictureAppDelegate.h; sourceTree = "<group>"; };
+		CB950C3B13D28B6A002FED97 /* HelloMyTakePictureAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloMyTakePictureAppDelegate.m; sourceTree = "<group>"; };
+		CB950C3E13D28B6A002FED97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CB950C4013D28B6A002FED97 /* HelloMyTakePictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloMyTakePictureViewController.h; sourceTree = "<group>"; };
+		CB950C4113D28B6A002FED97 /* HelloMyTakePictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloMyTakePictureViewController.m; sourceTree = "<group>"; };
+		CB950C4413D28B6A002FED97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloMyTakePictureViewController.xib; sourceTree = "<group>"; };
+		CB950C8C13D2BC34002FED97 /* frame_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_01.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB950C2413D28B69002FED97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB950C2C13D28B69002FED97 /* UIKit.framework in Frameworks */,
+				CB950C2E13D28B69002FED97 /* Foundation.framework in Frameworks */,
+				CB950C3013D28B69002FED97 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB950C1C13D28B69002FED97 = {
+			isa = PBXGroup;
+			children = (
+				CB950C3113D28B69002FED97 /* HelloMyTakePicture */,
+				CB950C2A13D28B69002FED97 /* Frameworks */,
+				CB950C2813D28B69002FED97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB950C2813D28B69002FED97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB950C2713D28B69002FED97 /* HelloMyTakePicture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB950C2A13D28B69002FED97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB950C2B13D28B69002FED97 /* UIKit.framework */,
+				CB950C2D13D28B69002FED97 /* Foundation.framework */,
+				CB950C2F13D28B69002FED97 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB950C3113D28B69002FED97 /* HelloMyTakePicture */ = {
+			isa = PBXGroup;
+			children = (
+				CB950C3A13D28B69002FED97 /* HelloMyTakePictureAppDelegate.h */,
+				CB950C3B13D28B6A002FED97 /* HelloMyTakePictureAppDelegate.m */,
+				CB950C3D13D28B6A002FED97 /* MainWindow.xib */,
+				CB950C4013D28B6A002FED97 /* HelloMyTakePictureViewController.h */,
+				CB950C4113D28B6A002FED97 /* HelloMyTakePictureViewController.m */,
+				CB950C4313D28B6A002FED97 /* HelloMyTakePictureViewController.xib */,
+				CB950C8C13D2BC34002FED97 /* frame_01.png */,
+				CB950C3213D28B69002FED97 /* Supporting Files */,
+			);
+			path = HelloMyTakePicture;
+			sourceTree = "<group>";
+		};
+		CB950C3213D28B69002FED97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB950C3313D28B69002FED97 /* HelloMyTakePicture-Info.plist */,
+				CB950C3413D28B69002FED97 /* InfoPlist.strings */,
+				CB950C3713D28B69002FED97 /* HelloMyTakePicture-Prefix.pch */,
+				CB950C3813D28B69002FED97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB950C2613D28B69002FED97 /* HelloMyTakePicture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB950C4813D28B6A002FED97 /* Build configuration list for PBXNativeTarget "HelloMyTakePicture" */;
+			buildPhases = (
+				CB950C2313D28B69002FED97 /* Sources */,
+				CB950C2413D28B69002FED97 /* Frameworks */,
+				CB950C2513D28B69002FED97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMyTakePicture;
+			productName = HelloMyTakePicture;
+			productReference = CB950C2713D28B69002FED97 /* HelloMyTakePicture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB950C1E13D28B69002FED97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SoftArt Laboratory";
+			};
+			buildConfigurationList = CB950C2113D28B69002FED97 /* Build configuration list for PBXProject "HelloMyTakePicture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB950C1C13D28B69002FED97;
+			productRefGroup = CB950C2813D28B69002FED97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB950C2613D28B69002FED97 /* HelloMyTakePicture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB950C2513D28B69002FED97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB950C3613D28B69002FED97 /* InfoPlist.strings in Resources */,
+				CB950C3F13D28B6A002FED97 /* MainWindow.xib in Resources */,
+				CB950C4513D28B6A002FED97 /* HelloMyTakePictureViewController.xib in Resources */,
+				CB950C8D13D2BC34002FED97 /* frame_01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB950C2313D28B69002FED97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB950C3913D28B69002FED97 /* main.m in Sources */,
+				CB950C3C13D28B6A002FED97 /* HelloMyTakePictureAppDelegate.m in Sources */,
+				CB950C4213D28B6A002FED97 /* HelloMyTakePictureViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB950C3413D28B69002FED97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB950C3513D28B69002FED97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB950C3D13D28B6A002FED97 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB950C3E13D28B6A002FED97 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CB950C4313D28B6A002FED97 /* HelloMyTakePictureViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB950C4413D28B6A002FED97 /* en */,
+			);
+			name = HelloMyTakePictureViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB950C4613D28B6A002FED97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB950C4713D28B6A002FED97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CB950C4913D28B6A002FED97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: CHIA-YIN LIN (47HSY6Z358)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CHIA-YIN LIN (47HSY6Z358)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMyTakePicture/HelloMyTakePicture-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "HelloMyTakePicture/HelloMyTakePicture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "43FB2ECC-6CB0-4D60-BD1D-54D0B2A553AF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "43FB2ECC-6CB0-4D60-BD1D-54D0B2A553AF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB950C4A13D28B6A002FED97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: CHIA-CHING KUAN (9F9LVL7PRF)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMyTakePicture/HelloMyTakePicture-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "HelloMyTakePicture/HelloMyTakePicture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DC60DB70-984B-4F93-BF52-BE4DD8797999";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB950C2113D28B69002FED97 /* Build configuration list for PBXProject "HelloMyTakePicture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB950C4613D28B6A002FED97 /* Debug */,
+				CB950C4713D28B6A002FED97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB950C4813D28B6A002FED97 /* Build configuration list for PBXNativeTarget "HelloMyTakePicture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB950C4913D28B6A002FED97 /* Debug */,
+				CB950C4A13D28B6A002FED97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB950C1E13D28B69002FED97 /* Project object */;
+}
